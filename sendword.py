@@ -17,6 +17,9 @@ class Worder(object):
     def get_word(self,):
         return random.choice(self.dictionary)
 
+
+
+
 if __name__ == '__main__':
     w = Worder()
 
